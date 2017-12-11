@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html ng-app="app" lang="en-US">
+<head>
+	<title>CCM</title>
+    <meta http-equiv="Cache-control" content="no-cache" />
+    <meta http-equiv="Expires" content="-1" />
+	<meta charset="utf-8" />
+	<meta content="CCM" name="description" />
+	<meta content="Justin Forbes" name="author" />
+
+    <link href="Content/toastr.min.css" rel="stylesheet" />
+	
+    <link href="Content/bootstrap.min.css" rel="stylesheet">
+    <link href="Content/font-awesome.min.css" rel="stylesheet">
+    <link href="Content/animate.min.css" rel="stylesheet">
+    <link href="Content/main.css" rel="stylesheet" />
+    <link href="Content/prettyPhoto.css" rel="stylesheet">
+    <link href="Content/responsive.css" rel="stylesheet">
+    <link href="Content/bootstrap-slider.css" rel="stylesheet">
+    <link href="Content/font-awesome.min.css" rel="stylesheet" />
+</head>
+<!-- BEGIN BODY -->
+<body class="homepage">
+    <input type="hidden" id="baseUrl" value="http://localhost:2668/api" />
+	<header id="header">
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="/index">Customer Contact Management</a>
+                </div>
+                <div class="collapse navbar-collapse navbar-right">
+
+                </div>
+            </div>
+        </nav>
+    </header>
+	<!-- BEGIN CONTAINER -->
+    <!--<div class="container">-->
+	<section class="feature">            
+		<div ng-view></div>
+	</section>
+	<!--</div>-->
+	<!-- END CONTAINER -->
+    <footer id="footer" class="midnight-blue">
+        <div class="container">
+            <div class="row">
+            </div>
+        </div>
+    </footer>
+    
+	<!-- BEGIN CORE JS FRAMEWORK-->
+    <script src="Scripts/jquery-3.1.1.min.js"></script>
+    <script src="Scripts/jquery.csv.min.js"></script>
+	<script src="Scripts/moment.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+	<script src="Scripts/toastr.min.js"></script>
+	<script src="Scripts/linq.min.js"></script>
+	<script src="Scripts/date.js"></script>
+    <script src="Scripts/wow.min.js"></script>
+	<!-- BEGIN CORE TEMPLATE JS -->
+	<!--Angular Scripts-->
+	<script src="/Scripts/angular.js"></script>
+	<script src="/Scripts/i18n/angular-locale_en-us.js"></script>
+	<script src="/Scripts/angular-ui/ui-bootstrap-tpls.min.js"></script>
+	<script src="/Scripts/angular-route.js"></script>
+	<script src="/Scripts/angular-cookies.js"></script>
+	<script src="/Scripts/angular-sanitize.min.js"></script>
+	<script src="/Scripts/angular-animate.min.js"></script>
+	<script src="/Scripts/angular-idle.min.js"></script>
+    <script src="scripts/dirPagination.js"></script>
+	<!--End Angular scripts-->
+
+	<!--App Specific Scripts-->
+	<script src="/app.js"></script>
+	<!--End App Specific Scripts-->
+	
+	<!-- SERVICES -->
+    <script src="/app-services/common.service.js"></script>
+	<!-- END SERVICES-->
+
+	<!-- CONTROLLERS -->
+    <script src="/modules/customers/scripts/customer.controller.js"></script>
+	<!-- END CONTROLLERS-->
+</body>
+<!-- END BODY -->
+</html>

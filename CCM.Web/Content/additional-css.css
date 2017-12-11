@@ -1,0 +1,317 @@
+@charset "utf-8";
+/* CSS Document */
+html body img.contactimg{
+position:relative;
+padding:0;
+margin:3%;
+width:95%;	
+}
+.lefttd{width:40%;}
+.contacts-narrow{
+display:none;
+background-color:#9b9b9b;
+}
+.contacts-wide{
+display:block;
+background-color:#9b9b9b;
+}
+.bg-img1b, .bg-img2b, .bg-img3b, .bg-img4b, .bg-img5b, .bg-img1c{
+
+background-repeat:no-repeat;
+color:#000;
+background-size:cover;
+background-repeat:repeat;
+padding:5%;
+padding-top:10%;
+width:100%;
+min-height:70%
+}
+.bg-img1b, .bg-img3b, .bg-img5b {
+padding-left:50%;
+background-position:center left;
+background-color:#9b9b9b;
+position:relative;
+}
+.bg-img1c {
+padding-left:0%;
+background-position:center left;
+background-color:#9b9b9b;
+position:relative;
+}
+.bg-img1c img{
+position:relative;
+left:10%;
+width:35%;
+margin:5%;
+border: 2px solid #333;
+float:left;
+}
+
+.bg-img2b, .bg-img4b{
+padding-right:50%;
+background-position:center right;
+background-color:#1c1c1c;
+position:relative;
+}
+
+.bg-img1b img, .bg-img3b img, .bg-img1c img{
+position:absolute;
+left:10%;
+width:25%;
+margin-top:0%;
+}
+.bg-img5b img{
+position:absolute;
+left:10%;
+width:25%;
+top:10%;
+}
+
+
+.bg-img2b img, .bg-img4b img{
+position:absolute;
+right:10%;
+width:25%;
+margin-top:0%;
+}
+.bg-img4b img{
+width:30%;	
+}
+
+
+.autopmargin{
+margin-top:5%;	
+}
+.bg-img1b .container, .bg-img1c .container, .bg-img2b .container, .bg-img3b .container, .bg-img4b .container, .bg-img5b .container{
+	background-image:url(../images/opaque-mantis-den2.png);
+	background-repeat:repeat;
+	padding:5%;
+	margin:0%;
+	width:100%;
+	margin-right:0;
+	background-color:transparent;
+}
+.container p, .container li{
+	color:#333;
+	font-size:1.9vmin;
+}
+.container ul{
+	margin:0px;
+}
+.container h3{
+	font-weight:bold;
+	font-size:2.2vmin;
+	margin:0 1%;
+}
+.ausubhead, h4{
+	font-size:3vmin;
+	font-weight:bold;
+}
+.ulul ul, .ulul li{
+	list-style:circle;
+}
+.bg-img1b, .bg-img1c {
+background-image:url(../images/light-grey-gradient-background.png);
+background-size:contain;
+border-image-repeat:repeat;
+}
+.bg-img2b {
+background-image:url(../images/medium-grey-background.png);
+}
+.bg-img3b {
+background-image:url(../images/Mantis-Den-Logo-Backdrop.png);
+}
+.bg-img4b {
+background-image:url(../images/five-alternate.png);
+}
+.bg-img5b {
+background-image:url(../images/Mantis-Den-Logo-Backdrop.png);
+}
+@media (max-width:1281px) { /* hi-res laptops and desktops */ 
+.bg-img1b img,.bg-img3b img, .bg-img5b img, .bg-img5c img{
+
+width:30%;
+}
+
+.bg-img2b img, .bg-img4b img{
+
+width:30%;
+}
+.bg-img4b img{
+width:35%;	
+}
+}
+}
+@media (max-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
+.bg-img1b img, .bg-img3b img, .bg-img5b img{
+position:absolute;
+left:3%;
+width:40%;
+}
+.bg-img1c img{
+position:absolute;
+left:3%;
+width:35%;
+}
+.bg-img2b img, .bg-img4b img{
+position:absolute;
+right:3%;
+width:40%;
+}
+.bg-img4b img{
+width:45%;	
+}
+}
+@media (max-width:961px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+.bg-img5b {
+padding-left:4%;
+}
+.container p, .container li{
+font-size:2vmin;
+/*color:red;*/
+}
+.ausubhead, h4{
+font-size:3.2vmin;
+}
+.container h3{
+	font-size:2.4vmin;
+}
+.bg-img1b img, .bg-img1c img, .bg-img3b img, .bg-img5b img{
+position:absolute;
+left:3%;
+width:45%;
+}
+.bg-img2b img, .bg-img4b img{
+position:absolute;
+right:3%;
+width:45%;
+}
+.bg-img5b img{
+position:relative;
+margin-left:23%;
+width:45%;
+margin-top:0%;
+margin-bottom:3%;
+}
+
+}
+@media (max-width:741px) { /* phil custom 1 */ 
+.container p, .container li{
+font-size:2.2vmin;
+/*color:blue;*/
+}
+.bg-img1b, .bg-img1c, .bg-img2b, .bg-img3b, .bg-img4b, .bg-img5b {
+padding-left:4%;
+padding-right:4%;
+}
+.ausubhead, h4{
+font-size:3.5vmin;
+}
+.container h3{
+	font-size:2.8vmin;
+}
+.bg-img1b img, .bg-img1c img, .bg-img3b img, .bg-img5b img, .bg-img2b img, .bg-img4b img{
+position:relative;
+margin-left:23%;
+width:45%;
+margin-top:0%;
+margin-bottom:3%;
+}
+ .bg-img4b img
+ {
+	 margin-left:30%;
+ }
+ .bg-img1b, .bg-img1c {
+background-image:url(../images/Mantis-Den-Logo-Backdrop.png);
+background-size:cover;
+border-image-repeat:repeat;
+}
+.contacts-narrow{
+display:block;
+}
+.contacts-wide{
+display:none;
+}
+}
+@media (max-width:641px) { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+.container p, .container li{
+font-size:3vmin;
+/*color:red;*/
+}
+.ausubhead, h4{
+font-size:4vmin;
+}
+.container h3{
+	font-size:3.5vmin;
+}
+
+}
+@media (max-width:481px) { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+.container p, .container li{
+font-size:4vmin;
+/*color:blue;*/
+}
+.ausubhead, h4{
+font-size:5vmin;
+}
+.container h3{
+	font-size:4.5vmin;
+}
+.bg-img1b, .bg-img1c{
+	margin-top:0%;
+}
+html img.services-image{
+	width:100%;
+	max-width:400px;	
+	border: 2px solid #060;
+	margin:5% 0 5% 0;
+}
+}
+@media (max-width:381px) { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+.container p, .container li{
+font-size:5vmin;
+/*color:blue;*/
+}
+.ausubhead, h4{
+font-size:6vmin;
+}
+.container h3{
+	font-size:5.5vmin;
+}
+.bg-img1b, .bg-img1c{
+	margin-top:8%;
+}
+}
+
+.row{
+	padding-right:5%;	
+}
+
+h1, h2, h3, h4, h5{
+	color:#333;
+}
+.bg-img1b, .bg-img1c{
+	margin-top:7%;
+}
+@media (max-width:330px) { /* phil custom 2 */ 
+
+.bg-img1b, .bg-img1c{
+	margin-top:12%;
+}
+}
+.bg-img1b, .bg-img1c{
+	margin-top:5%;
+}
+.services-image{
+	width:70%;
+	max-width:400px;	
+	border: 2px solid #060;
+	/*float:right;
+	/*margin-left:5%;
+	margin-bottom:5%;*/
+	max-width:400px;	
+	border: 2px solid #060;
+	margin:5% auto 5% auto;
+	display:block;
+	
+}
